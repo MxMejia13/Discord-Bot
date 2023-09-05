@@ -23,11 +23,6 @@ const client = new Client({
 });
 
 
-//'940824689444524063' SERVER ID
-// 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 AI API KEY
-
-
-
 client.on('ready', (c) => {
   console.log(`${c.user.tag} is online.`);
 });
